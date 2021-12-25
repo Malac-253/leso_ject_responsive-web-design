@@ -1,0 +1,102 @@
+
+body{
+    margin: 0;
+    font: 1em sans-serif;
+}
+
+
+
+/* #####################
+Typography 
+#######################*/
+
+.title {
+    font-family: Verdana;
+    font-weight: 400px;
+    color: #143778;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.sub-title {
+    font-weight: 700px;
+    color: #1792d2;
+    font-size: .75rem;
+    margin: 0;
+}
+
+
+
+/* #####################
+Layout 
+#######################*/
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    border: 2px solid magenta;
+    margin: 0 auto;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    /* text-align: center; */
+    background: #f8f8f8;
+    padding: 0.75em 0em;
+}
+
+/* navagation */
+
+.nav-list{
+    /* border: 2px solid gold; */
+
+
+    list-style:none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list-item{
+    /* border: 2px solid purple; */
+    margin: 0 1em;
+}
+
+.nav-list-item-link{
+    /* border: 2px solid green; */
+    text-decoration: none;
+    color: #092f44;
+    font-family: Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 900px;
+    padding: 0.25em 0.25em;
+}
+
+.nav-list-item-link:hover,
+.nav-list-item-link:focus{
+    color: #1799df;
+}
+
+.site-nav-list{
+
+}
+
+.site-nav-list-item{
+    
+}
+
+.site-nav-list-item-link{
+
+}
+
+.current_page {
+    border-bottom: 2px solid black ;
+}
+
+.current_page:hover {
+    color: #092f44;
+}
